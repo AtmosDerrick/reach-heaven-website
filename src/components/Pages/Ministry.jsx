@@ -7,12 +7,12 @@ function Ministry() {
   return (
     <div>
       <Navbar />
-      <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
-        <div className=" w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-mono font-bold text-white drop-shadow-md   ">
+      <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-auto ">
+        <div className=" w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-mono font-bold text-white drop-shadow-md   ">
           <div>Ministries in Reach Heaven Heaven Church</div>
         </div>
       </div>
-      <div className="w-full mx-4 xl:w-3/4 xl:mx-auto  mt-6 px-4 xl:px-0   ">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0   ">
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Youth Ministry
@@ -53,7 +53,7 @@ function Ministry() {
         </div>
       </div>
 
-      <div className="w-full mx-4 xl:w-3/4 xl:mx-auto  mt-6 px-4 xl:px-0   ">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0   ">
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Men Ministry
@@ -93,7 +93,7 @@ function Ministry() {
           </p>
         </div>
       </div>
-      <div className="w-full mx-4 xl:w-3/4 xl:mx-auto  mt-6 px-4 xl:px-0">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0">
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify ">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Women Ministry
@@ -126,7 +126,7 @@ function Ministry() {
           </p>
         </div>
       </div>
-      <div className="w-full mx-4 xl:w-3/4 xl:mx-auto  mt-6 px-4 xl:px-0 ">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 ">
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify ">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Children Ministry

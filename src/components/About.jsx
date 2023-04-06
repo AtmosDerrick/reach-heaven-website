@@ -8,13 +8,13 @@ function About() {
         <img
           src="./images/RHC-chapel.png"
           alt="reach heaven chapel"
-          className="w-3/4 mb-8 rounded-lg shadow-xl"
+          className="w-full md:w-3/4 mb-8 rounded-lg shadow-xl"
         />
 
         <img
           src="./images/RCH-inside.png"
           alt="reach heaven chapel"
-          className="w-[20rem] h-[20rem] ml-[-10rem] mt-24 shadow-xl rounded-lg "
+          className="w-[13rem] md:w-[20rem] md:h-[20rem] ml-[-10rem] mt-24 shadow-xl rounded-lg "
         />
       </div>
       <div className="w-full text-base text-gray-800 py-4">

@@ -7,14 +7,14 @@ function Footer() {
     <footer
       className="w-full h-auto pb-4 md:pb-0 md:h-[80vh] bg-gray-900 mt-4 "
       id="footer">
-      <div className="w-full px-4 xl:px-0 xl:w-3/4 mx-auto absolute ">
+      <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto absolute ">
         <img
           src="./images/world-map.png"
           className="w-1/2 opacity-80 mx-auto "
         />
       </div>
 
-      <div className="w-full  px-4 xl:px-0 xl:w-3/4 mx-auto text-3xl text-white relative">
+      <div className="w-full  px-2 xl:px-0 xl:w-3/4 mx-auto text-3xl text-white relative">
         <div>
           <ul className="hidden md:flex md:justify-center pt-4 text-sm md:text-lg md:tracking-4 font-medium ">
             <li className="mx-4">About</li>
@@ -71,7 +71,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="mx-4 h">
+          <div className="mx-2 h">
             <Map />
           </div>
         </div>

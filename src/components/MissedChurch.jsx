@@ -29,7 +29,7 @@ function MissedChurch() {
                 <i class="fa-brands fa-youtube fa-2x drop-shadow-lg text-gray-900"></i>
               </div>
             </div>
-            <div className="text-sm">
+            <div className="text-xs md:text-sm">
               Reach Heaven Church Int. Or @reachheavenchurchint.
             </div>
           </div>

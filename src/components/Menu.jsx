@@ -24,6 +24,9 @@ function Menu() {
             <Link to="/ministry">
               <li className="py-4 shadow-lg px-4">Ministries</li>
             </Link>
+            <Link to="/giving">
+              <li className="y-4 shadow-lg px-4 block lg:hidden">Giving</li>
+            </Link>
             <a href="#footer">
               <li className="py-4 shadow-lg px-4 block lg:hidden">Contact</li>
             </a>

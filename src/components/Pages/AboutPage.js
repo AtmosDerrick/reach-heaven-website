@@ -8,11 +8,11 @@ function AboutPage() {
     <div>
       <Navbar />
       <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
-        <div className="w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4 text-base  md:text-xl uppercase  flex items-center font-mono font-bold text-white drop-shadow-md ">
+        <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text-base  md:text-xl uppercase  flex items-center font-mono font-bold text-white drop-shadow-md ">
           <div>About Reach Heaven Church International</div>
         </div>
       </div>
-      <div className="w-full px-4 xl:px-0 xl:w-3/4 mx-auto mt-4 text-sm lg:text-base md:flex md:justify-between">
+      <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto mt-4 text-sm lg:text-base md:flex md:justify-between">
         <div className="w-full">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Our History
@@ -37,7 +37,7 @@ function AboutPage() {
           </p>
         </div>
 
-        <div className="w-3/4 ml-4 flex justify-end">
+        <div className="w-3/4 ml-2 flex justify-end">
           <img
             src="./images/RHC-chapel.png"
             className="w-full md:w-3/4 mb-8 rounded-lg shadow-xl"
@@ -82,7 +82,7 @@ function AboutPage() {
         </div>
       </div>
 
-      <div className="w-full xl:w-3/4 px-4 xl:px-0 mx-auto grid grid-cols-1 md:grid-cols-3 mt-4 gap-4 text-base text-gray-700">
+      <div className="w-full xl:w-3/4 px-2 xl:px-0 mx-auto grid grid-cols-1 md:grid-cols-3 mt-4 gap-4 text-base text-gray-700">
         <div className="w-full text-justify text-base  mx-2 ">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase">
             Vision
@@ -126,13 +126,13 @@ function AboutPage() {
         </div>
       </div>
 
-      <div className="w-full px-4 xl:px-0 xl:w-3/4 mx-auto mt-4">
+      <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto mt-4">
         <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
           Leadership
         </h2>
 
         <div className="w-full bg-gray-900 text-white mx-auto md:flex md:justify-between mt-4 py-2 text-sm lg:text-base text-justify  ">
-          <div className=" mx-8 ">
+          <div className=" mx-2">
             <p>
               <h3 className="text-yellow-500 font-semibold font-sans text-lg uppercase">
                 Message from ps. Vera Due <br></br>
