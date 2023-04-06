@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="grid grid-cols-2 gap-4 mt-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 mx-2 md:mt-0">
       <div className="w-full  p-4 flex justify-center">
         <img
           src="./images/RHC-chapel.png"
@@ -16,33 +17,37 @@ function About() {
           className="w-[20rem] h-[20rem] ml-[-10rem] mt-24 shadow-xl rounded-lg "
         />
       </div>
-      <div className="w-full text-lg text-gray-800 py-4 leading-8">
+      <div className="w-full text-base text-gray-800 py-4">
         <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
           About
         </h2>
-        <div className="text-left text-lg text-gray-800 font-medium italic">
-          Aute nostrud amet non irure incididunt anim pariatur aute ex qui enim
-          laboris.
-        </div>
+
         <p>
-          Ex consectetur ex veniam enim. Veniam sint ex nisi pariatur et ad
-          irure excepteur sint nostrud adipisicing adipisicing. Id veniam veniam
-          ut magna sit dolor exercitation laborum consectetur. Esse ullamco anim
-          enim nulla enim anim. Velit ea irure irure veniam reprehenderit irure
-          in nulla qui ullamco nostrud Lorem cupidatat. Laboris eu commodo
-          exercitation aliqua tempor deserunt ex sunt eu laborum. Fugiat
-          deserunt ut sint veniam amet laboris id non. Eu enim sint fugiat et.
-          Laborum do esse velit consequat minim esse ut. Ipsum in mollit nulla
-          in commodo dolore occaecat anim dolor id ullamco est dolor irure.
-          Voluptate elit sint reprehenderit labore mollit occaecat.
-          Reprehenderit aute dolore et tempor do. Deserunt enim magna excepteur
-          ex quis nulla non consectetur aute ad aliqua incididunt sint dolor.
-          sint reprehenderit labore mollit
+          Welcome to Reach Heaven Church International! We are a community of
+          believers who gather together to worship Jesus Christ, our Lord and
+          Savior. Our mission is to spread the love of God to all people, and we
+          believe that everyone is welcome in Reach Heaven Church Int.,
+          regardless of their background or beliefs. At Reach Heaven, we offer a
+          variety of programs and services designed to help you grow in your
+          faith and deepen your relationship with God.<br></br> We have Sunday
+          worship services, Bible study groups, youth and children's ministries,
+          and various outreach programs to serve our community. Reach Heaven
+          Church Int. is committed to providing a warm and welcoming atmosphere
+          for everyone who walks through our doors. We believe that the church
+          is not just a building, but a community of people who come together to
+          support and encourage one another in their faith journeys. Whether you
+          are a lifelong Christian or are just starting to explore your faith,
+          we invite you to join us in worship and fellowship. Our hope is that
+          you will find a home in our church and that your relationship with God
+          will be strengthened through your time here. Thank you for visiting
+          our website, and we hope to see you soon!
         </p>
         <div>
-          <button className="bg-blue-500 shadow-lg text-lg text-center text-white py-2 px-8 font-medium rounded-full mt-4 hover:opacity-70 hover:shadow-md hover:transition-all">
-            Learn More
-          </button>
+          <Link to="/about">
+            <button className="bg-blue-500 shadow-lg text-lg text-center text-white py-2 px-8 font-medium rounded-full mt-4 hover:opacity-70 hover:shadow-md hover:transition-all">
+              Learn More
+            </button>
+          </Link>
         </div>
       </div>
     </div>

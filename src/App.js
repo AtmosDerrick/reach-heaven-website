@@ -1,30 +1,23 @@
-import Navbar from "./components/Navbar"
-import LandingPage from "./components/LandingPage";
-import WelcomeMessage from "./components/WelcomeMessage";
-import About from "./components/About";
-import RecentService from "./components/RecentService";
-import MissedChurch from "./components/MissedChurch";
-import RandomPic from "./components/RandomPic";
-import Footer from "./components/Footer";
-import Watsupchat from "./components/Watsupchat";
-import Copyright from "./components/Copyright";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import AboutPage from "./components/Pages/AboutPage";
+import Ministry from "./components/Pages/Ministry";
+import Conference from "./components/Pages/Conference";
+import Giving from "./components/Pages/Giving";
 
 function App() {
   return (
     <div className="w-full mx-auto bg-gray-50">
-      
-      <LandingPage />
-      <WelcomeMessage />
-      <div className="w-3/4 mx-auto">
-        <About />
-        <RecentService />
-      </div>
-      <MissedChurch />
-      <RandomPic />
-      <Watsupchat />
-
-      <Footer />
-      <Copyright />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/ministry" element={<Ministry />} />
+          <Route path="/conferenceandevent" element={<Conference />} />
+          <Route path="/giving" element={<Giving />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
