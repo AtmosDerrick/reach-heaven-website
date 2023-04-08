@@ -34,7 +34,12 @@ function MissedChurch() {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center sentencecase">
+        <div
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="w-full flex justify-center sentencecase">
           <img
             src="./images/phone1.png"
             alt="Reach Heaven Phone"

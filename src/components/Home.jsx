@@ -13,14 +13,16 @@ function Home() {
   return (
     <div>
       <LandingPage />
+
       <WelcomeMessage />
       <div className="w-full xl:w-3/4 mx-auto px-4 xl:px-0">
         <About />
         <RecentService />
       </div>
       <MissedChurch />
-      <RandomPic />
+
       <Watsupchat />
+      <RandomPic />
 
       <Footer />
       <Copyright />

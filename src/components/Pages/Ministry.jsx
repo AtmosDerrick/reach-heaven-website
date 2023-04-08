@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Copyright from "../Copyright";
 
 function Ministry() {
+  const [YreadMore, setYReadMore] = useState(false);
+  const [MreadMore, setMReadMore] = useState(false);
+  const [WreadMore, setWReadMore] = useState(false);
+  const [CreadMore, setCReadMore] = useState(false);
+
   return (
     <div>
       <Navbar />
@@ -12,55 +17,81 @@ function Ministry() {
           <div>Ministries in Reach Heaven Heaven Church</div>
         </div>
       </div>
-      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0   ">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between   ">
+        <div className="w-full h-[20rem] bg-gray-200 mr-4  "></div>
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Youth Ministry
           </h2>
           <p>
-            {" "}
-            <div className="w-full h-[20rem] bg-gray-200  "></div>
-            At Reach Heaven Church International, we believe that our youth are
-            not just the future of the church, but they are an important part of
-            our church community today. Our youth ministry is dedicated to
-            helping young people grow in their faith, build strong relationships
-            with one another, and become the leaders that God has called them to
-            be. <br></br>One of the key verses that inspires our youth ministry
-            is found in 1 Timothy 4:12, which says, "Don’t let anyone look down
-            on you because you are young, but set an example for the believers
-            in speech, in conduct, in love, in faith and in purity." We believe
-            that this verse speaks to the heart of what it means to be a young
-            person of faith - to live a life that sets an example for others, no
-            matter your age.<br></br> Through our youth ministry, we provide
-            opportunities for young people to connect with one another, to learn
-            and grow together, and to use their gifts and talents to make a
-            positive impact on the world. We believe that young people need
-            community and support in order to grow in their faith and become the
-            leaders that God has called them to be.<br></br> Our youth ministry
-            is focused on equipping young people to be leaders in their schools,
-            their communities, and their families. We believe that young people
-            have a unique perspective and voice that is essential to the work of
-            the church, and we are committed to helping them discover and use
-            their gifts and talents to make a positive impact on the world.
-            <br></br>
-            Whether you are a teenager just starting out in life, or a young
-            adult looking for a new challenge, we invite you to join us at Reach
-            Heaven Church International and become a part of our youth ministry.
-            Together, we can set an example for others in speech, conduct, love,
-            faith, and purity, and we can make a difference in the world around
-            us.
+            <p>
+              At Reach Heaven Church International, we believe that our youth
+              are not just the future of the church, but they are an important
+              part of our church community today. Our youth ministry is
+              dedicated to helping young people grow in their faith, build
+              strong relationships with one another, and become the leaders that
+              God has called them to be.
+            </p>
+            <p>
+              One of the key verses that inspires our youth ministry is found in
+              1 Timothy 4:12, which says, "Don’t let anyone look down on you
+              because you are young, but set an example for the believers in
+              speech, in conduct, in love, in faith and in purity." We believe
+              that this verse speaks to the heart of what it means to be a young
+              person of faith - to live a life that sets an example for others,
+              no matter your age.
+            </p>
           </p>
+          {YreadMore ? (
+            <div>
+              <div>
+                <p>
+                  Through our youth ministry, we provide opportunities for young
+                  people to connect with one another, to learn and grow
+                  together, and to use their gifts and talents to make a
+                  positive impact on the world. We believe that young people
+                  need community and support in order to grow in their faith and
+                  become the leaders that God has called them to be.
+                </p>
+                <p>
+                  Our youth ministry is focused on equipping young people to be
+                  leaders in their schools, their communities, and their
+                  families. We believe that young people have a unique
+                  perspective and voice that is essential to the work of the
+                  church, and we are committed to helping them discover and use
+                  their gifts and talents to make a positive impact on the
+                  world.
+                </p>
+                <p>
+                  Whether you are a teenager just starting out in life, or a
+                  young adult looking for a new challenge, we invite you to join
+                  us at Reach Heaven Church International and become a part of
+                  our youth ministry. Together, we can set an example for others
+                  in speech, conduct, love, faith, and purity, and we can make a
+                  difference in the world around us.
+                </p>
+              </div>
+            </div>
+          ) : (
+            ""
+          )}
+          <button
+            onClick={() => {
+              setYReadMore(!YreadMore);
+            }}
+            className="  text-base text-center text-yellow-500  py-2 font-medium  my-2 hover:opacity-70  hover:transition-all  ">
+            Read More
+          </button>
         </div>
       </div>
 
-      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0   ">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between   ">
+        <div className="w-full h-[20rem] bg-gray-200 mr-4 "></div>
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Men Ministry
           </h2>
           <p>
-            {" "}
-            <div className="w-full h-[20rem] bg-gray-200 "></div>
             At Reach Heaven Church International, our men's ministry is
             dedicated to helping men grow in their relationship with God, build
             strong relationships with one another, and become the leaders and
@@ -73,33 +104,47 @@ function Ministry() {
             the life of a man of faith. We believe that men need to be connected
             to other men who can challenge and encourage them to grow in their
             faith and become the leaders that God has called them to be.
-            <br></br> Through our men's ministry, we provide a range of
-            opportunities for men to connect with one another, including small
-            group Bible studies, retreats, service projects, and special events.
-            We believe that these opportunities provide a platform for men to
-            build relationships with one another, share their experiences and
-            challenges, and support one another as they navigate the ups and
-            downs of life.<br></br> Our men's ministry is focused on equipping
-            men to be leaders in their homes, their workplaces, and their
-            communities. We believe that men have a unique perspective and voice
-            that is essential to the work of the church, and we are committed to
-            helping them discover and use their gifts and talents to make a
-            positive impact on the world.<br></br> Whether you are a young man
-            just starting out in life, or a seasoned veteran looking for a new
-            challenge, we invite you to join us at Reach Heaven Church
-            International and become a part of our men's ministry. Together, we
-            can sharpen one another, grow in our faith, and become the leaders
-            that God has called us to be.
+            <br></br>
           </p>
+          {MreadMore ? (
+            <div>
+              Through our men's ministry, we provide a range of opportunities
+              for men to connect with one another, including small group Bible
+              studies, retreats, service projects, and special events. We
+              believe that these opportunities provide a platform for men to
+              build relationships with one another, share their experiences and
+              challenges, and support one another as they navigate the ups and
+              downs of life.<br></br> Our men's ministry is focused on equipping
+              men to be leaders in their homes, their workplaces, and their
+              communities. We believe that men have a unique perspective and
+              voice that is essential to the work of the church, and we are
+              committed to helping them discover and use their gifts and talents
+              to make a positive impact on the world.<br></br> Whether you are a
+              young man just starting out in life, or a seasoned veteran looking
+              for a new challenge, we invite you to join us at Reach Heaven
+              Church International and become a part of our men's ministry.
+              Together, we can sharpen one another, grow in our faith, and
+              become the leaders that God has called us to be.
+            </div>
+          ) : (
+            ""
+          )}
+          <button
+            onClick={() => {
+              setMReadMore(!MreadMore);
+            }}
+            className="  text-base text-center text-yellow-500  py-2 font-medium  my-2 hover:opacity-70  hover:transition-all  ">
+            Read More
+          </button>
         </div>
       </div>
-      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between">
+        <div className="w-full h-[20rem] bg-gray-200 mr-4 "></div>
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify ">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Women Ministry
           </h2>
           <p>
-            <div className="w-full h-[20rem] bg-gray-200 "></div>
             At Reach Heaven Church International, our women's ministry is guided
             by the principles of faith and empowerment that are found throughout
             the Bible. We believe that women have a unique and valuable role to
@@ -112,27 +157,41 @@ function Ministry() {
             the heart of what it means to be a woman of faith - to be strong,
             dignified, and unafraid of the challenges and uncertainties of life.
             <br></br>
-            Through our women's ministry, we seek to create a community of women
-            who are empowered by their faith and who support one another in
-            their journey of growth and discovery. We provide opportunities for
-            women to connect with one another, to learn and grow together, and
-            to use their gifts and talents to make a positive impact on the
-            world.<br></br> Whether you are a young woman just starting out in
-            life, or a seasoned veteran looking for a new challenge, we invite
-            you to join us at Reach Heaven Church International and become a
-            part of our women's ministry. Together, we can be the strong and
-            dignified women that God has called us to be, and we can face the
-            future with joy and confidence.
+            {WreadMore ? (
+              <div>
+                Through our women's ministry, we seek to create a community of
+                women who are empowered by their faith and who support one
+                another in their journey of growth and discovery. We provide
+                opportunities for women to connect with one another, to learn
+                and grow together, and to use their gifts and talents to make a
+                positive impact on the world.<br></br> Whether you are a young
+                woman just starting out in life, or a seasoned veteran looking
+                for a new challenge, we invite you to join us at Reach Heaven
+                Church International and become a part of our women's ministry.
+                Together, we can be the strong and dignified women that God has
+                called us to be, and we can face the future with joy and
+                confidence.
+              </div>
+            ) : (
+              ""
+            )}
           </p>
+          <button
+            onClick={() => {
+              setWReadMore(!WreadMore);
+            }}
+            className="  text-base text-center text-yellow-500  py-2 font-medium  my-2 hover:opacity-70  hover:transition-all  ">
+            Read More
+          </button>
         </div>
       </div>
-      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 ">
+      <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between ">
+        <div className="w-full h-[20rem] bg-gray-200 mr-4 "></div>
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify ">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Children Ministry
           </h2>
           <p>
-            <div className="w-full h-[20rem] bg-gray-200 "></div>
             At Reach Heaven Church International, we believe that children are a
             precious gift from God, and we are committed to providing a safe and
             nurturing environment where they can learn and grow in their faith.
@@ -148,19 +207,34 @@ function Ministry() {
             engage kids in learning about the Bible and growing in their faith.
             Our team of trained volunteers is dedicated to creating a fun and
             welcoming environment where kids can feel loved and supported as
-            they learn and grow.<br></br>We believe that children have a unique
-            capacity for faith and spiritual growth, and we are committed to
-            nurturing their hearts and minds through age-appropriate teaching
-            and discipleship. Our goal is to help children develop a personal
-            relationship with Jesus Christ and to lay a foundation for a
-            lifetime of spiritual growth and service.<br></br>Whether your child
-            is just starting out on their journey of faith, or they are looking
-            for a new community of friends and mentors, we invite you to join us
-            at Reach Heaven Church International and become a part of our
-            children's ministry. Together, we can train up our children in the
-            way they should go, and help them grow into the faithful and
-            passionate followers of Jesus Christ that God has called them to be.
+            they learn and grow.
+            {CreadMore ? (
+              <div>
+                We believe that children have a unique capacity for faith and
+                spiritual growth, and we are committed to nurturing their hearts
+                and minds through age-appropriate teaching and discipleship. Our
+                goal is to help children develop a personal relationship with
+                Jesus Christ and to lay a foundation for a lifetime of spiritual
+                growth and service.<br></br>Whether your child is just starting
+                out on their journey of faith, or they are looking for a new
+                community of friends and mentors, we invite you to join us at
+                Reach Heaven Church International and become a part of our
+                children's ministry. Together, we can train up our children in
+                the way they should go, and help them grow into the faithful and
+                passionate followers of Jesus Christ that God has called them to
+                be.
+              </div>
+            ) : (
+              ""
+            )}
           </p>
+          <button
+            onClick={() => {
+              setCReadMore(!CreadMore);
+            }}
+            className="  text-base text-center text-yellow-500  py-2 font-medium  my-2 hover:opacity-70  hover:transition-all  ">
+            Read More
+          </button>
         </div>
       </div>
       <Footer />
