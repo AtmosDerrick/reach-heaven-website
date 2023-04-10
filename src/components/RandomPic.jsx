@@ -45,7 +45,7 @@ function RandomPic() {
         draggable={true}
         showDots={true}
         responsive={responsive}
-        slidesToSlide={3}
+        slidesToSlide={deviceType !== "mobile" ? 3 : 1}
         infinite={true}
         autoPlay={deviceType !== "mobile" ? true : false}
         autoPlaySpeed={1000}
