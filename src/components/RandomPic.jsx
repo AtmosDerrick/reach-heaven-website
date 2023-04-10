@@ -7,19 +7,19 @@ import { deviceType } from "react-device-detect";
 //import images
 import pic1 from "../images/randomPic/pic1.jpg";
 import pic2 from "../images/randomPic/pic2.jpg";
-import pic4 from "../images/randomPic/pic3.jpg";
+import pic3 from "../images/randomPic/pic3.jpg";
 
-import pic5 from "../images/randomPic/pic4.JPG";
+import pic4 from "../images/randomPic/pic4.JPG";
 
-import pic6 from "../images/randomPic/pic5.JPG";
+import pic5 from "../images/randomPic/pic5.JPG";
 
-import pic7 from "../images/randomPic/pic6.JPG";
-import pic8 from "../images/randomPic/pic7.JPG";
+import pic6 from "../images/randomPic/pic6.JPG";
+import pic7 from "../images/randomPic/pic7.JPG";
 
-import pic9 from "../images/randomPic/pic8.JPG";
+import pic8 from "../images/randomPic/pic8.JPG";
 
-import pic10 from "../images/randomPic/pic9.JPG";
-import pic11 from "../images/randomPic/pic10.JPG";
+import pic9 from "../images/randomPic/pic9.JPG";
+import pic10 from "../images/randomPic/pic10.JPG";
 
 function RandomPic() {
   const responsive = {
@@ -65,18 +65,18 @@ function RandomPic() {
         </div>
 
         <div className="w-full h-[15rem] mx-2">
+          <img src={pic3} alt="Reach heaven Church Int." />
+        </div>
+
+        <div className="w-full h-[15rem] mx-2 ">
           <img src={pic4} alt="Reach heaven Church Int." />
         </div>
 
-        <div className="w-full h-[15rem] mx-2 ">
+        <div className="w-full h-[20rem] b ">
           <img src={pic5} alt="Reach heaven Church Int." />
         </div>
-
-        <div className="w-full h-[20rem] b ">
-          <img src={pic6} alt="Reach heaven Church Int." />
-        </div>
         <div className="w-full h-[15rem] mx-2 ">
-          <img src={pic11} alt="Reach heaven Church Int." />
+          <img src={pic6} alt="Reach heaven Church Int." />
         </div>
 
         <div className="w-full h-[15rem] mx-2 ">
