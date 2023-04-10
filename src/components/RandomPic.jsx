@@ -86,7 +86,7 @@ function RandomPic() {
           <img src={pic8} alt="Reach heaven Church Int." />
         </div>
         <div className="w-full h-[15rem] mx-2 ">
-          <img ssrc={pic9} alt="Reach heaven Church Int." />
+          <img src={pic9} alt="Reach heaven Church Int." />
         </div>
         <div className="w-full h-[15rem] mx-2 ">
           <img src={pic10} alt="Reach heaven Church Int." />
