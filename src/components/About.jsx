@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 mx-2 md:mt-0">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8 mx-2 md:mt-0">
       <div className="w-full  p-4 flex justify-center">
         <img
           src="./images/RHC-chapel.png"

@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Copyright from "../Copyright";
+import "../../style/landingStyle.css";
 
 function Conference() {
   return (
-    <div>
+    <div id="jesusloveyou">
       <Navbar />
       <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
         <div className="  w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-mono font-bold text-white drop-shadow-md ">
@@ -13,7 +14,7 @@ function Conference() {
         </div>
       </div>
       <div className="w-full mx-2 xl:w-3/4 xl:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-        <div className="w-full h-[10rem] bg-gray-200 px-4 rounded-lg shadow-lg">
+        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
           <div>
             <span>
               <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
@@ -21,6 +22,12 @@ function Conference() {
             <span className="text-lg font-serif font-bold pl-4">
               1ST January 2024
             </span>
+          </div>
+          <div>
+            <span>
+              <i class="fa-regular fa-clock fa-2x"></i>
+            </span>
+            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
           </div>
           <div className="text-xl text-blue-500 font-bold">
             New Year Church Celebration
@@ -32,7 +39,7 @@ function Conference() {
             </p>
           </div>
         </div>
-        <div className="w-full h-[10rem] bg-gray-200 px-4 rounded-lg shadow-lg">
+        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
           <div>
             <span>
               <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
@@ -40,6 +47,12 @@ function Conference() {
             <span className="text-lg font-serif font-bold pl-4">
               1ST January 2024
             </span>
+          </div>
+          <div>
+            <span>
+              <i class="fa-regular fa-clock fa-2x"></i>
+            </span>
+            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
           </div>
           <div className="text-xl text-blue-500 font-bold">
             New Year Church Celebration
@@ -51,7 +64,7 @@ function Conference() {
             </p>
           </div>
         </div>
-        <div className="w-full h-[10rem] bg-gray-200 px-4 rounded-lg shadow-lg">
+        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
           <div>
             <span>
               <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
@@ -59,6 +72,12 @@ function Conference() {
             <span className="text-lg font-serif font-bold pl-4">
               1ST January 2024
             </span>
+          </div>
+          <div>
+            <span>
+              <i class="fa-regular fa-clock fa-2x"></i>
+            </span>
+            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
           </div>
           <div className="text-xl text-blue-500 font-bold">
             New Year Church Celebration
@@ -70,7 +89,7 @@ function Conference() {
             </p>
           </div>
         </div>
-        <div className="w-full h-[10rem] bg-gray-200 px-4 rounded-lg shadow-lg">
+        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
           <div>
             <span>
               <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
@@ -78,6 +97,12 @@ function Conference() {
             <span className="text-lg font-serif font-bold pl-4">
               1ST January 2024
             </span>
+          </div>
+          <div>
+            <span>
+              <i class="fa-regular fa-clock fa-2x"></i>
+            </span>
+            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
           </div>
           <div className="text-xl text-blue-500 font-bold">
             New Year Church Celebration
@@ -89,7 +114,7 @@ function Conference() {
             </p>
           </div>
         </div>
-        <div className="w-full h-[10rem] bg-gray-200 px-4 rounded-lg shadow-lg">
+        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
           <div>
             <span>
               <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
@@ -97,6 +122,15 @@ function Conference() {
             <span className="text-lg font-serif font-bold pl-4">
               1ST January 2024
             </span>
+          </div>
+          <div>
+            <span>
+              <span className="text-base font-medium pl-4">
+                {" "}
+                9:00am - 3:00pm
+              </span>
+            </span>
+            <span>9:00am - 3:00pm</span>
           </div>
           <div className="text-xl text-blue-500 font-bold">
             New Year Church Celebration
@@ -108,7 +142,7 @@ function Conference() {
             </p>
           </div>
         </div>
-        <div className="w-full h-[10rem] bg-gray-200 px-4 rounded-lg shadow-lg">
+        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
           <div>
             <span>
               <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
@@ -116,6 +150,12 @@ function Conference() {
             <span className="text-lg font-serif font-bold pl-4">
               1ST January 2024
             </span>
+          </div>
+          <div>
+            <span>
+              <i class="fa-regular fa-clock fa-2x"></i>
+            </span>
+            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
           </div>
           <div className="text-xl text-blue-500 font-bold">
             New Year Church Celebration

@@ -1,19 +1,18 @@
 import React from "react";
 import "../style/landingStyle.css";
-import Navbar from "./Navbar";
+import LandingNav from "./LandingNav";
 
 function LandingPage() {
   return (
     <div className="w-full mx-auto h-[70vh] md:h-[90vh]" id="landingPage">
-      <Navbar />
-      <div className="w-full px-4 lg:px-4 lg:w-3/4 mx-auto text-white   flex mt-8 md:mt-28 lg:mt-32 justify-center">
+      <LandingNav />
+      <div className="w-full px-4 lg:px-4 lg:w-3/4 mx-auto text-white   flex mt-8 md:mt-24  justify-center">
         <div
           className="uppercase font-medium text-center  "
           data-aos="fade-down">
           <h3 className="w-full md:w-3/4 lg:w-1/2 mx-auto italic border-t-4 border-b-4 border-blue-400 p-4">
             We welcome you to
           </h3>
-
           <h1 className="text-xl md:text-5xl  font-semibold mt-4 font-serif drop-shadow-lg">
             Reach Heaven Church
           </h1>
@@ -28,10 +27,6 @@ function LandingPage() {
               Proverbs 3:5-6
             </span>
           </div>
-
-          <button className="bg-blue-500 shadow-lg text-lg text-center text-white py-2 px-8 font-medium rounded-full mt-2 md:mt-4 hover:opacity-70 hover:shadow-md hover:transition-all">
-            Contact Us
-          </button>
         </div>
       </div>
     </div>

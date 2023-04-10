@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
 
-function Navbar() {
+function LandingNav() {
   const [menu, setMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -10,7 +10,7 @@ function Navbar() {
   };
   return (
     <div className="w-full">
-      <div className="w-full h-[10vh] bg-gray-900  absolute "></div>
+      <div className="w-full   absolute "></div>
 
       <nav className="relative text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto ">
         <div className="py-2 flex justify-start w-full">
@@ -66,4 +66,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default LandingNav;
