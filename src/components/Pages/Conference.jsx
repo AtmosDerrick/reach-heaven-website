@@ -9,162 +9,93 @@ function Conference() {
     <div id="jesusloveyou">
       <Navbar />
       <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
-        <div className="  w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-mono font-bold text-white drop-shadow-md ">
-          <div>Conference and Events</div>
+        <div className="  w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4  text-xl uppercase  flex items-center font-sans font-bold text-white drop-shadow-md ">
+          <div>Upcoming Event</div>
         </div>
       </div>
-      <div className="w-full mx-2 xl:w-3/4 xl:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
-          <div>
-            <span>
-              <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
-            </span>
-            <span className="text-lg font-serif font-bold pl-4">
-              1ST January 2024
-            </span>
-          </div>
-          <div>
-            <span>
-              <i class="fa-regular fa-clock fa-2x"></i>
-            </span>
-            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
-          </div>
-          <div className="text-xl text-blue-500 font-bold">
-            New Year Church Celebration
-          </div>
-          <div className="w-full py-2 px-4 text-center">
-            <p className="text-base text-gray-800 italic">
-              "Aliquip commodo tempor amet minim ad culpa enim laboris deserunt
-              minim dolore dolore quis dolor."
-            </p>
+      <div className="w-3/4 mx-auto grid grid-cols-1 lg:grid-cols-3 gap-2">
+        <div className="w-full mx-2 xl:w-full xl:mx-auto  gap-4 mt-4">
+          <div className="flex justify-between">
+            <div className="text-center bg-blue-800 font-bold uppercase text-xl p-2 text-white h-[5rem] w-[5rem]">
+              20th<br></br>
+              <span className="uppercase ">Sep.</span>
+            </div>
+            <div className="flex justify-between w-full border-4 border-gray-900 ml-2 bg-gray-100 px-2 items-center">
+              <div className="text-base font-medium pl-2 text-black">
+                Mega Night of<br></br> Worship
+              </div>
+              <div className="text-gray-900 font-semibold uppercase">
+                <i class="fa-solid fa-clock"></i> |<span>6:00Pm</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
-          <div>
-            <span>
-              <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
-            </span>
-            <span className="text-lg font-serif font-bold pl-4">
-              1ST January 2024
-            </span>
-          </div>
-          <div>
-            <span>
-              <i class="fa-regular fa-clock fa-2x"></i>
-            </span>
-            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
-          </div>
-          <div className="text-xl text-blue-500 font-bold">
-            New Year Church Celebration
-          </div>
-          <div className="w-full py-2 px-4 text-center">
-            <p className="text-base text-gray-800 italic">
-              "Aliquip commodo tempor amet minim ad culpa enim laboris deserunt
-              minim dolore dolore quis dolor."
-            </p>
+
+        <div className="w-full mx-2 xl:w-full xl:mx-auto  gap-4 mt-4">
+          <div className="flex justify-between">
+            <div className="text-center bg-blue-800 font-bold uppercase text-xl p-2 text-white h-[5rem] w-[5rem]">
+              9th<br></br>
+              <span className="uppercase ">Oct.</span>
+            </div>
+            <div className="flex justify-between w-full border-4 border-gray-900 ml-2 bg-gray-100 px-2 items-center">
+              <div className="text-base font-medium pl-2 text-black">
+                Women<br></br> COnference
+              </div>
+              <div className="text-gray-900 font-semibold uppercase">
+                <i class="fa-solid fa-clock"></i> |<span>6:00Pm</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
-          <div>
-            <span>
-              <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
-            </span>
-            <span className="text-lg font-serif font-bold pl-4">
-              1ST January 2024
-            </span>
-          </div>
-          <div>
-            <span>
-              <i class="fa-regular fa-clock fa-2x"></i>
-            </span>
-            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
-          </div>
-          <div className="text-xl text-blue-500 font-bold">
-            New Year Church Celebration
-          </div>
-          <div className="w-full py-2 px-4 text-center">
-            <p className="text-base text-gray-800 italic">
-              "Aliquip commodo tempor amet minim ad culpa enim laboris deserunt
-              minim dolore dolore quis dolor."
-            </p>
+
+        <div className="w-full mx-2 xl:w-full xl:mx-auto  gap-4 mt-4">
+          <div className="flex justify-between">
+            <div className="text-center bg-blue-800 font-bold uppercase text-xl p-2 text-white h-[5rem] w-[5rem]">
+              1st<br></br>
+              <span className="uppercase ">Nov.</span>
+            </div>
+            <div className="flex justify-between w-full border-4 border-gray-900 ml-2 bg-gray-100 px-2 items-center">
+              <div className="text-base font-medium pl-2 text-black">
+                Fasting and<br></br> Prayer
+              </div>
+              <div className="text-gray-900 font-semibold uppercase">
+                <i class="fa-solid fa-clock"></i> |<span>6:00Pm</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
-          <div>
-            <span>
-              <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
-            </span>
-            <span className="text-lg font-serif font-bold pl-4">
-              1ST January 2024
-            </span>
-          </div>
-          <div>
-            <span>
-              <i class="fa-regular fa-clock fa-2x"></i>
-            </span>
-            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
-          </div>
-          <div className="text-xl text-blue-500 font-bold">
-            New Year Church Celebration
-          </div>
-          <div className="w-full py-2 px-4 text-center">
-            <p className="text-base text-gray-800 italic">
-              "Aliquip commodo tempor amet minim ad culpa enim laboris deserunt
-              minim dolore dolore quis dolor."
-            </p>
+
+        <div className="w-full mx-2 xl:w-full xl:mx-auto  gap-4 mt-4">
+          <div className="flex justify-between">
+            <div className="text-center bg-blue-800 font-bold uppercase text-xl p-2 text-white h-[5rem] w-[5rem]">
+              15th<br></br>
+              <span className="uppercase ">Dec.</span>
+            </div>
+            <div className="flex justify-between w-full border-4 border-gray-900 ml-2 bg-gray-100 px-2 items-center">
+              <div className="text-base font-medium pl-2 text-black">
+                Weija Revival
+              </div>
+              <div className="text-gray-900 font-semibold uppercase">
+                <i class="fa-solid fa-clock"></i> |<span>6:00Pm</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
-          <div>
-            <span>
-              <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
-            </span>
-            <span className="text-lg font-serif font-bold pl-4">
-              1ST January 2024
-            </span>
-          </div>
-          <div>
-            <span>
-              <span className="text-base font-medium pl-4">
-                {" "}
-                9:00am - 3:00pm
-              </span>
-            </span>
-            <span>9:00am - 3:00pm</span>
-          </div>
-          <div className="text-xl text-blue-500 font-bold">
-            New Year Church Celebration
-          </div>
-          <div className="w-full py-2 px-4 text-center">
-            <p className="text-base text-gray-800 italic">
-              "Aliquip commodo tempor amet minim ad culpa enim laboris deserunt
-              minim dolore dolore quis dolor."
-            </p>
-          </div>
-        </div>
-        <div className="w-full h-[auto] py-2 bg-gray-200 px-4 rounded-lg shadow-lg">
-          <div>
-            <span>
-              <i class="fa-sharp fa-regular fa-calendar fa-2x"></i>
-            </span>
-            <span className="text-lg font-serif font-bold pl-4">
-              1ST January 2024
-            </span>
-          </div>
-          <div>
-            <span>
-              <i class="fa-regular fa-clock fa-2x"></i>
-            </span>
-            <span className="text-base font-medium pl-4"> 9:00am - 3:00pm</span>
-          </div>
-          <div className="text-xl text-blue-500 font-bold">
-            New Year Church Celebration
-          </div>
-          <div className="w-full py-2 px-4 text-center">
-            <p className="text-base text-gray-800 italic">
-              "Aliquip commodo tempor amet minim ad culpa enim laboris deserunt
-              minim dolore dolore quis dolor."
-            </p>
+
+        <div className="w-full mx-2 xl:w-full xl:mx-auto  gap-4 mt-4">
+          <div className="flex justify-between">
+            <div className="text-center bg-blue-800 font-bold uppercase text-xl p-2 text-white h-[5rem] w-[5rem]">
+              26th<br></br>
+              <span className="uppercase ">June</span>
+            </div>
+            <div className="flex justify-between w-full border-4 border-gray-900 ml-2 bg-gray-100 px-2 items-center">
+              <div className="text-base font-medium pl-2 text-black">
+                Love Conference
+              </div>
+              <div className="text-gray-900 font-semibold uppercase">
+                <i class="fa-solid fa-clock"></i> |<span>9:00am</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

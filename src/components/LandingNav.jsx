@@ -9,11 +9,9 @@ function LandingNav() {
     setMenu(!menu);
   };
   return (
-    <div className="w-full">
-      <div className="w-full   absolute "></div>
-
+    <div className="w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 pt-2 shadow-md">
       <nav className="relative text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto ">
-        <div className="py-2 flex justify-start w-full">
+        <div className="py-2 flex justify-start w-3/4 ">
           <div>
             <img
               src="./images/RHCI_logo.png"
@@ -26,7 +24,7 @@ function LandingNav() {
           </div>
         </div>
 
-        <div className="text-lg font-medium w-full xl:w-3/4 py-4">
+        <div className="text-base font-medium w-full py-4">
           <ul className="flex justify-evenly">
             <Link to="/">
               <li className="mx-4 hidden lg:block">Home</li>
@@ -45,10 +43,14 @@ function LandingNav() {
               <li className="mx-4 hidden lg:block">Giving</li>
             </Link>
             <a href="#footer">
-              <li className="mx-4 hidden lg:block">Contact</li>
+              <li className="mx-4 hidden lg:block">
+                <div className="border-2 border-gray-50 p-2 w-full">
+                  Contact Us
+                </div>
+              </li>
             </a>
             <div
-              className=" text-xl text-blue-500 md:hidden"
+              className=" text-xl text-gray-100 lg:hidden"
               onClick={toggleMenu}>
               <i class="fa-solid fa-bars fa-2x"></i>
             </div>

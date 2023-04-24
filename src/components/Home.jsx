@@ -10,11 +10,13 @@ import Watsupchat from "./Watsupchat";
 import Copyright from "./Copyright";
 import Event from "./Event";
 import "../style/landingStyle.css";
+import NewLanding from "./NewLanding";
+import FounderMessage from "./FounderMessage";
 
 function Home() {
   return (
     <div>
-      <LandingPage />
+      <NewLanding />
 
       <div id="jesusloveyou">
         <Event />
@@ -27,7 +29,7 @@ function Home() {
       <MissedChurch />
 
       <Watsupchat />
-      <RandomPic />
+      <FounderMessage />
 
       <Footer />
       <Copyright />

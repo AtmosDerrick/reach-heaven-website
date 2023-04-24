@@ -4,8 +4,8 @@ import Form from "./Form";
 
 function Footer() {
   return (
-    <footer className="w-full h-auto pb-4 md:pb-0  bg-gray-900 mt-4  ">
-      <div className="w-full  mx-4 xl:mx-0 xl:w-3/4 mx-auto text-3xl text-white relative md:h-[25vh]">
+    <footer className="w-full h-auto pb-4 md:pb-0  bg-gray-900 mt-4 mx-auto  ">
+      <div className="w-full  mx-4 xl:mx-0 xl:w-3/4 xl:mx-auto text-3xl text-white ">
         <div className=" mt-4">
           <ul className="flex justify-center md:justify-left pt-4 ">
             <li className="mx-4 text-gray-200">
@@ -26,8 +26,8 @@ function Footer() {
                   <span> Location</span>
                 </div>
                 <div className="w-full text-gray-200 font-normal text-base">
-                  Sunt velit incididunt reprehender<br></br>Velit proident do
-                  dolore
+                  Weija Block-Factory<br></br>
+                  Along Accra Institute of Technology(AIT) Road
                 </div>
               </div>
             </div>
@@ -39,8 +39,7 @@ function Footer() {
                   <span> Service Time</span>
                 </div>
                 <div className="w-full text-gray-200 font-normal text-base ">
-                  Sunt velit incididunt reprehender<br></br>Velit proident do
-                  dolore
+                  Sunday Service - 8:00am to 12:00am
                 </div>
               </div>
             </div>
@@ -52,8 +51,14 @@ function Footer() {
                   <span> Get in touch</span>
                 </div>
                 <div className="w-full text-gray-200 font-normal text-base ">
-                  Sunt velit incididunt reprehender<br></br>Velit proident do
-                  dolore
+                  <span className="text-yellow-500">
+                    <i class="fa-solid fa-envelope  pr-2"></i>
+                  </span>
+                  reachheavenchurch26@gmail.com<br></br>
+                  <span className="text-yellow-500">
+                    <i class="fa-solid fa-phone  pr-2"></i>
+                  </span>
+                  054 - 145 - 9526
                 </div>
               </div>
             </div>
