@@ -42,8 +42,8 @@ function NewLanding() {
           responsive={responsive}
           slidesToSlide={deviceType !== "mobile" ? 1 : 1}
           infinite={true}
-          autoPlay={deviceType !== "mobile" ? true : false}
-          autoPlaySpeed={2000}
+          autoPlay={true}
+          autoPlaySpeed={3000}
           keyBoardControl={true}
           customTransition="transform 1000ms ease-in-out"
           transitionDuration={1000}
