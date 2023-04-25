@@ -9,7 +9,7 @@ function Conference() {
     <div id="jesusloveyou">
       <Navbar />
       <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
-        <div className="  w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4  text-xl uppercase  flex items-center font-sans font-bold text-white drop-shadow-md ">
+        <div className="  w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4  font-bold text-white drop-shadow-md ">
           <div>Upcoming Event</div>
         </div>
       </div>

@@ -45,27 +45,27 @@ function NewLanding() {
           autoPlay={true}
           autoPlaySpeed={3000}
           keyBoardControl={true}
-          customTransition="transform 1000ms ease-in-out"
-          transitionDuration={1000}
+          customTransition="transform 3000ms ease-in-out"
+          transitionDuration={3000}
           containerClass="carousel-container"
           // removeArrowOnDeviceType={["tablet", "mobile"]}
           deviceType={deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item padding-40px"
           className="relative">
-          <div className="w-full h-[35vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
             <img src={land} alt="Reach heaven Church Int." className="w-full" />
           </div>
-          <div className="w-full h-[35vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
             <img src={land1} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[35vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
             <img src={land3} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[35vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
             <img src={land2} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[35vh] md:h-[60vh] lg:h-[90vh] mx-2 ">
+          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh] mx-2 ">
             <img src={land4} alt="Reach heaven Church Int." />
           </div>
         </Carousel>

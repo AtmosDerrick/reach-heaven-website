@@ -6,7 +6,7 @@ function MissedChurch() {
     <div className="shadow-lg bg-gray-100 mt-4" id="missed">
       <div className=" relative w-full px-4 xl:px-0 xl:w-3/4 mx-auto md:flex md:justify-between pt-12">
         <div className="uppercase text-gray-900  font-bold w-full text-center pt-12 ">
-          <div className="text-center text-2xl bg-gray-900 text-gray-100 py-2 px-8">
+          <div className="text-center text-2xl bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 text-gray-100 py-2 px-8">
             Join our
           </div>
           <div className=" ">
