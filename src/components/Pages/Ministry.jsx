@@ -3,8 +3,8 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Copyright from "../Copyright";
 
-import youngAdult from "../../images/youngadult.JPG";
-import higherLife from "../../images/higherlife.JPG";
+import youngAdult from "../../images/youngagult.jpg";
+import higherLife from "../../images/higherlife.jpg";
 import woman from "../../images/woma.jpg";
 import children from "../../images/chil.jpg";
 
