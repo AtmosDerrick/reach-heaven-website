@@ -5,11 +5,11 @@ import Copyright from "../Copyright";
 
 //import picture
 import headpastor from "../../images/founder.jpg";
-import pastormicheal from "../../images/ps.micheal.jpg";
-import pastordavid from "../../images/ps.david.jpg";
-import pastorsimon from "../../images/ps.simon.jpg";
-import pastorboateng from "../../images/ps.boateng.jpg";
-import pastoralex from "../../images/ps.alex.jpg";
+import pastormicheal from "../../images/psmicheal.jpg";
+import pastordavid from "../../images/psdavid.jpg";
+import pastorsimon from "../../images/pssimon.jpg";
+import pastorboateng from "../../images/psboateng.jpg";
+import pastoralex from "../../images/psalex.jpg";
 
 function AboutPage() {
   return (
