@@ -4,8 +4,10 @@ import Form from "./Form";
 
 function Footer() {
   return (
-    <footer className="w-full h-auto pb-4 md:pb-0  bg-gray-900 mt-4 mx-auto  ">
-      <div className="w-full  mx-4 xl:mx-0 xl:w-3/4 xl:mx-auto text-3xl text-white ">
+    <footer
+      className="w-full h-auto pb-4 md:pb-0  bg-gray-900 mt-4 mx-auto  "
+      id="footer">
+      <div className="w-full  mx-4  xl:w-3/4 xl:mx-auto text-3xl text-white ">
         <div className=" mt-4">
           <ul className="flex justify-center md:justify-left pt-4 ">
             <li className="mx-4 text-gray-200">

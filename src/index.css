@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.leaders img {
+  @apply rounded-lg shadow-md;
+}
+
+.leaders p {
+  @apply text-lg font-medium uppercase mt-2;
+}

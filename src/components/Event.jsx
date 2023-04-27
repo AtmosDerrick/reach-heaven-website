@@ -15,7 +15,7 @@ function Event() {
   return (
     <div className=" w-full pt-4 px-2 xl:px-0   ">
       <div className="grid lg:grid-cols-4 md:gap-2 md:grid-cols-2 xl:gap-4">
-        <div className="w-full  h-[auto] bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900  md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0 hover:opacity-50 ">
+        <div className="w-full  h-[auto] bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900  md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0 hover:shadow-lg ">
           <img
             src={sun}
             alt="Reach heaven Church Int."
@@ -27,7 +27,7 @@ function Event() {
             </div>
           </div>
         </div>
-        <div className="w-full  h-[auto]  bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0  hover:opacity-50">
+        <div className="w-full  h-[auto]  bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0  hover:shadow-lg">
           <img
             src={prayer}
             alt="Reach heaven Church Int."
@@ -40,7 +40,7 @@ function Event() {
           </div>
         </div>
 
-        <div className="w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900  h-[auto]  md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0 hover:opacity-50 ">
+        <div className="w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900  h-[auto]  md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0 hover:shadow-lg ">
           <img
             src={worship}
             alt="Reach heaven Church Int."
@@ -53,7 +53,7 @@ function Event() {
           </div>
         </div>
 
-        <div className="w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900  h-[auto]  md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0 hover:opacity-50 ">
+        <div className="w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900  h-[auto]  md:mx-2 shadow-lg  rounded-lg mb-2 md:mb-0 hover:shadow-lg ">
           <img
             src={teaching}
             alt="Reach heaven Church Int."
