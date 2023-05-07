@@ -31,10 +31,10 @@ function NewLanding() {
 
   console.log(deviceType);
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full ">
       <LandingNav />
 
-      <div>
+      <div className="">
         <Carousel
           swipeable={true}
           draggable={true}
@@ -53,19 +53,19 @@ function NewLanding() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item padding-40px"
           className="relative">
-          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh] mt-20 ">
             <img src={land} alt="Reach heaven Church Int." className="w-full" />
           </div>
-          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-20 ">
             <img src={land1} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-20 ">
             <img src={land3} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh]  ">
+          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-20 ">
             <img src={land2} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[33vh] md:h-[60vh] lg:h-[90vh] mx-2 ">
+          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh] mt-20 mx-2 ">
             <img src={land4} alt="Reach heaven Church Int." />
           </div>
         </Carousel>

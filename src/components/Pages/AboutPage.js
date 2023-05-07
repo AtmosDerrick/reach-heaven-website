@@ -15,7 +15,7 @@ function AboutPage() {
   return (
     <div className="mx-auto">
       <Navbar />
-      <div className="w-full  bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
+      <div className=" w-full  bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
         <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text-base  md:text-xl uppercase  flex items-center font-sans font-bold text-white ">
           <div>About Reach Heaven Church International</div>
         </div>
@@ -92,7 +92,7 @@ function AboutPage() {
       </div>
 
       <div className="w-full xl:w-3/4 px-2 xl:px-0 mx-auto grid grid-cols-1 md:grid-cols-3 mt-4 gap-4 text-base text-gray-700">
-        <div className="w-full text-justify text-base  mx-2 bg-gray-200 rounded-2xl p-2 ">
+        <div className="w-full text-justify text-base  mx-2 bg-gray-100 rounded-2xl p-2 ">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase">
             Vision
           </h2>
@@ -100,7 +100,7 @@ function AboutPage() {
           individuals with the presence of God
         </div>
 
-        <div className="w-full text-justify  text-base mx-2 bg-gray-200 rounded-2xl p-2">
+        <div className="w-full text-justify  text-base mx-2 bg-gray-100 rounded-2xl p-2">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase ">
             Mission
           </h2>
@@ -109,7 +109,7 @@ function AboutPage() {
           accompanied by signsnd wonders, empowered by the holy spirit to raise
           God-filled Youth and children in changing this generation and beyond
         </div>
-        <div className="w-full text-justify  text-base  mx-2 bg-gray-200 rounded-2xl p-2">
+        <div className="w-full text-justify  text-base  mx-2 bg-gray-100 rounded-2xl p-2">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase ">
             Core Value
           </h2>
@@ -165,7 +165,7 @@ function AboutPage() {
 
               <p>Ps. Micheal</p>
               <span className=" text-yellow-500 font-serif font-semibold">
-                Residence Pastor
+                Resident Pastor
               </span>
             </div>
           </div>
@@ -218,16 +218,6 @@ function AboutPage() {
                 </span>{" "}
               </p>
             </div>
-          </div>
-        </div>
-
-        <div className="lg:w-3/4 lg:mx-auto text-center text-lg mt-4 font-serif font-semibold text-blue-700 uppercase">
-          Church Executives
-        </div>
-        <div className="lg:w-[5rem] lg:mx-auto  border-b-4 pl-4 border-b-yellow-500"></div>
-        <div className="w-full ">
-          <div className="w-full mt-2 text-center flex justify-center">
-            <div className="w-full h-[30vh] bg-gray-200"></div>
           </div>
         </div>
       </div>

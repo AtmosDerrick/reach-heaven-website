@@ -9,8 +9,8 @@ function LandingNav() {
     setMenu(!menu);
   };
   return (
-    <div className="w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 pt-2 shadow-md">
-      <nav className="relative text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto ">
+    <div className="fixed z-50 w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 pt-2 shadow-md">
+      <nav className=" text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto ">
         <div className="py-2 flex justify-start w-3/4 ">
           <div>
             <img

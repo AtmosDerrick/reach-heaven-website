@@ -23,8 +23,8 @@ function Ministry() {
         </div>
       </div>
       <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between   ">
-        <div className="w-full h-[20rem] bg-gray-200 mr-4  ">
-          <img src={youngAdult} alt="reach heaven ministry" />
+        <div className="w-full mb-4 md:mb-0 mr-4  ">
+          <img src={youngAdult} alt="reach heaven ministry" className="" />
         </div>
         <div className="w-full h-auto text-sm lg:text-base pb-6 text-justify">
           <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
@@ -93,7 +93,7 @@ function Ministry() {
       </div>
 
       <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between   ">
-        <div className="w-full h-[20rem] bg-gray-200 mr-4 ">
+        <div className="w-full mb-4 md:mb-0 mr-4 ">
           {" "}
           <img src={higherLife} alt="reach heaven ministry" />
         </div>
@@ -149,7 +149,7 @@ function Ministry() {
         </div>
       </div>
       <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between">
-        <div className="w-full h-[20rem] bg-gray-200 mr-4 ">
+        <div className="w-full mb-4 md:mb-0 mr-4 ">
           {" "}
           <img src={woman} alt="reach heaven ministry" />
         </div>
@@ -199,7 +199,7 @@ function Ministry() {
         </div>
       </div>
       <div className="w-full  xl:w-3/4 xl:mx-auto  mt-6 px-2 xl:px-0 md:flex md:justify-between ">
-        <div className="w-full h-[20rem] bg-gray-200 mr-4 ">
+        <div className="w-full mb-4 md:mb-0 mr-4">
           {" "}
           <img src={children} alt="reach heaven ministry" />
         </div>

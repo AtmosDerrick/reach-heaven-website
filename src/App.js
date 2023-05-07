@@ -8,7 +8,7 @@ import Giving from "./components/Pages/Giving";
 
 function App() {
   return (
-    <div className="w-full mx-auto bg-blue-50 scroll-smooth">
+    <div className="w-full bg-blue-50">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -9,8 +9,8 @@ function Navbar() {
     setMenu(!menu);
   };
   return (
-    <div className="w-full  bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900">
-      <nav className="relative text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto ">
+    <div className=" w-full  bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900">
+      <nav className="relative text-white flex justify-between w-full p-2  xl:px-0 xl:w-3/4 xl:mx-auto ">
         <div className="py-2 flex justify-start w-3/4">
           <div>
             <img
@@ -24,8 +24,8 @@ function Navbar() {
           </div>
         </div>
 
-        <div className="text-base font-medium w-full py-4 mx-2">
-          <ul className="flex justify-evenly">
+        <div className="text-base font-medium w-full py-4 ml-2 ">
+          <ul className="flex justify-between lg:justify-evenly">
             <Link to="/">
               <li className="mx-4 hidden lg:block">Home</li>
             </Link>
