@@ -3,7 +3,7 @@ import "../style/whatsup.css";
 
 function Watsupchat() {
   return (
-    <div className="bg-green-500  ">
+    <div className="bg-green-500   ">
       <a
         href="https://wa.me/+233591459526"
         class="whatsapp_float"

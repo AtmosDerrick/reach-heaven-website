@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function WelcomeMessage() {
   return (
@@ -12,9 +13,11 @@ function WelcomeMessage() {
           A Place to Experience God's Presence
         </p>
         <div className="flex justify-center">
-          <button className="bg-blue-500 text-white font-medium drop-shadow-lg px-4 py-2 rounded-full ">
+          <Link
+            to="/about"
+            className="bg-blue-500 text-white font-medium drop-shadow-lg px-4 py-2 rounded-full ">
             Learn More
-          </button>
+          </Link>
         </div>
       </div>
     </div>

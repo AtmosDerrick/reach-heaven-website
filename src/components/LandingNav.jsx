@@ -1,16 +1,45 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
 
 function LandingNav() {
   const [menu, setMenu] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+
+      if (scrollTop > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setMenu(!menu);
   };
+
   return (
-    <div className="fixed z-50 w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 pt-2 shadow-md">
-      <nav className=" text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto ">
+    <div
+      className={
+        isScrolled
+          ? "fixed z-50 w-full bg-gray-100  pt-2 shadow-md bg-opacity-90"
+          : "fixed z-50 w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 pt-2 shadow-md"
+      }>
+      <nav
+        className={
+          isScrolled
+            ? "text-sky-600 flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto "
+            : "text-white flex justify-between w-full px-2 xl:px-0 xl:w-3/4 xl:mx-auto "
+        }>
         <div className="py-2 flex justify-start w-3/4 ">
           <div>
             <img
@@ -19,12 +48,10 @@ function LandingNav() {
               className="w-16"
             />
           </div>
-          <div className="text-white font-sans font-semibold text-xl py-4 ml-4  ">
-            RHCI
-          </div>
+          <div className="font-sans font-bold text-3xl py-4 ml-4  ">RHCI</div>
         </div>
 
-        <div className="text-base font-medium w-full py-4">
+        <div className="text-base font-bold w-full py-4">
           <ul className="flex justify-evenly">
             <Link to="/">
               <li className="mx-4 hidden lg:block">Home</li>
@@ -44,14 +71,17 @@ function LandingNav() {
             </Link>
             <a href="#footer">
               <li className="mx-4 hidden lg:block">
-                <div className="border-2 border-gray-50 p-2 w-full">
+                <div
+                  className={
+                    isScrolled
+                      ? "bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 p-2 w-full text-white"
+                      : ""
+                  }>
                   Contact Us
                 </div>
               </li>
             </a>
-            <div
-              className=" text-xl text-gray-100 lg:hidden"
-              onClick={toggleMenu}>
+            <div className=" text-xl  lg:hidden" onClick={toggleMenu}>
               <i class="fa-solid fa-bars fa-2x"></i>
             </div>
           </ul>

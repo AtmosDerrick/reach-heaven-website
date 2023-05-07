@@ -11,13 +11,16 @@ function Footer() {
         <div className=" mt-4">
           <ul className="flex justify-center md:justify-left pt-4 ">
             <li className="mx-4 text-gray-200">
-              <i class="fa-brands fa-facebook"></i>
+              <a href="https://www.facebook.com/ReachHeavenMinistry">
+                {" "}
+                <i class="fa-brands fa-facebook"></i>
+              </a>
             </li>
             <li className="mx-4 text-gray-200">
-              <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li className="mx-4 text-gray-200">
-              <i class="fa-brands fa-youtube"></i>
+              <a href="https://www.youtube.com/@reachheavenchurchint.">
+                {" "}
+                <i class="fa-brands fa-youtube"></i>
+              </a>
             </li>
           </ul>
           <div className="w-full grid grid-cols-1 md:grid-cols-3  ">
