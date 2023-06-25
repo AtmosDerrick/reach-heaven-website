@@ -16,8 +16,7 @@ function Ministry() {
 
   return (
     <div>
-      <Navbar />
-      <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-auto ">
+      <div className="w-full bg-gradient-to-r pt-24 from-cyan-500 to-blue-500 h-auto ">
         <div className=" w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-sans text-xl font-bold text-white drop-shadow-md   ">
           <div>Ministries in Reach Heaven Heaven Church</div>
         </div>

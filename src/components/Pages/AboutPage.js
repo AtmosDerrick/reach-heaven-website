@@ -14,22 +14,21 @@ import pastoralex from "../../images/psalex.jpg";
 function AboutPage() {
   return (
     <div className="mx-auto">
-      <Navbar />
-      <div className=" w-full  bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
+      <div className=" w-full pt-24  bg-gradient-to-r from-cyan-500 to-blue-500 ">
         <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text-base  md:text-xl uppercase  flex items-center font-sans font-bold text-white ">
           <div>About Reach Heaven Church International</div>
         </div>
       </div>
-      <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto mt-4 text-sm lg:text-base md:flex md:justify-between">
+      <div className="w-full px-2 text-justify xl:px-0 xl:w-3/4 mx-auto mt-4 text-sm lg:text-base md:flex md:justify-between">
         <div className="w-full">
-          <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
+          <h2 className="text-left text-base md:text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
             Our History
           </h2>
           <p>
-            Reach Heaven Church International was founded in 1995 by Pastor Vera
+            Reach Heaven Church International was founded in 2005 by Pastor Vera
             Duah. The church started as a small Bible study group in their home,
             but quickly grew as more people joined and the need for a larger
-            space became evident. In 1998, the church moved into its current
+            space became evident. In 2005, the church moved into its current
             location, a spacious and modern facility in the heart of the city.
             Over the years, Reach Heaven Church International has become known
             for its dynamic worship services, engaging Bible studies, and
@@ -54,15 +53,15 @@ function AboutPage() {
       </div>
 
       <div className="w-full mt-4">
-        <div className="w-full px-4 xl:px-0 xl:w-3/4 mx-auto mt-4 text-sm lg:text-base md:flex md:justify-between">
+        <div className="w-full  px-4 xl:px-0 xl:w-3/4 mx-auto mt-4 text-sm lg:text-base md:flex md:justify-between">
           <div className="w-full">
             <img
               src="./images/RCH-inside.png"
               className="w-full md:w-3/4 mb-8 rounded-lg shadow-xl"
             />
           </div>
-          <div className="w-full ">
-            <h2 className="text-left text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
+          <div className="w-full text-justify ">
+            <h2 className="text-left text-base md:text-2xl font-serif font-semibold text-blue-700 uppercase border-l-4 pl-4 border-l-yellow-500">
               About Us
             </h2>
             <p>
@@ -92,7 +91,7 @@ function AboutPage() {
       </div>
 
       <div className="w-full xl:w-3/4 px-2 xl:px-0 mx-auto grid grid-cols-1 md:grid-cols-3 mt-4 gap-4 text-base text-gray-700">
-        <div className="w-full text-justify text-base  mx-2 bg-gray-100 rounded-2xl p-2 ">
+        <div className="w-full text-justify text-base  mx-2 bg-blue-200 rounded-2xl p-2 cursor-pointer hover:shadow-md ">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase">
             Vision
           </h2>
@@ -100,7 +99,7 @@ function AboutPage() {
           individuals with the presence of God
         </div>
 
-        <div className="w-full text-justify  text-base mx-2 bg-gray-100 rounded-2xl p-2">
+        <div className="w-full text-justify  text-base mx-2 bg-blue-200 rounded-2xl p-2 cursor-pointer hover:shadow-md">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase ">
             Mission
           </h2>
@@ -109,7 +108,7 @@ function AboutPage() {
           accompanied by signsnd wonders, empowered by the holy spirit to raise
           God-filled Youth and children in changing this generation and beyond
         </div>
-        <div className="w-full text-justify  text-base  mx-2 bg-gray-100 rounded-2xl p-2">
+        <div className="w-full text-justify  text-base  mx-2 bg-blue-200 rounded-2xl p-2 cursor-pointer hover:shadow-md">
           <h2 className="text-center text-lg font-serif font-semibold text-blue-700 uppercase ">
             Core Value
           </h2>

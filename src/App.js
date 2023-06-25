@@ -5,11 +5,14 @@ import AboutPage from "./components/Pages/AboutPage";
 import Ministry from "./components/Pages/Ministry";
 import Conference from "./components/Pages/Conference";
 import Giving from "./components/Pages/Giving";
+import LandingPage from "./components/LandingPage";
+import LandingNav from "./components/LandingNav";
 
 function App() {
   return (
     <div className="w-full bg-blue-50">
       <BrowserRouter>
+        <LandingNav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />

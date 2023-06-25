@@ -7,10 +7,11 @@ import "../../style/landingStyle.css";
 function Conference() {
   return (
     <div id="jesusloveyou" className="">
-      <Navbar />
-      <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-[10vh] ">
-        <div className="  w-full px-4 xl:px-0 xl:w-3/4 mx-auto py-4  font-bold text-white drop-shadow-md ">
-          <div>Upcoming Event</div>
+      <div className="w-full pt-24 flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 ">
+        <div className="   ">
+          <div className="w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text-base  md:text-xl uppercase  flex items-center font-sans font-bold text-white ">
+            <div>Events and Conference</div>
+          </div>
         </div>
       </div>
       <div className="xl:w-3/4 px-2 xl:px-0 xl:mx-auto grid grid-cols-1 lg:grid-cols-2 gap-2 mr-2">

@@ -8,9 +8,8 @@ import momo from "../../images/allnet.jpg";
 function Giving() {
   return (
     <div>
-      <Navbar />
       <div className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 h-auto ">
-        <div className="  w-full px-2 xl:px-0 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-sans font-bold text-white drop-shadow-md text-lg ">
+        <div className="  w-full px-2 xl:px-0 pt-24 xl:w-3/4 mx-auto py-4 text:lg md:text-xl uppercase  flex items-center font-sans font-bold text-white drop-shadow-md text-lg ">
           <div>
             Give generously and cheerfully to support the work of our church and
             further God's kingdom.

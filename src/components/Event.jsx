@@ -19,10 +19,10 @@ function Event() {
           <img
             src={sun}
             alt="Reach heaven Church Int."
-            className="w-full h-[15rem]"
+            className="w-full md:h-[15rem]"
           />
           <div className="w-full  px-2 py-2">
-            <div className="text-xl text-gray-100 uppercase w-full text-center font-bold">
+            <div className="text-base md:text-xl text-gray-100 uppercase w-full text-center font-bold">
               sunday Service : 8AM - 12AM
             </div>
           </div>
@@ -31,10 +31,10 @@ function Event() {
           <img
             src={prayer}
             alt="Reach heaven Church Int."
-            className="w-full h-[15rem]"
+            className="w-full md:h-[15rem]"
           />
           <div className="w-full flex justify-center lg:block px-2 py-2">
-            <div className="text-xl text-gray-100 uppercase w-full text-center font-bold">
+            <div className="text-base md:text-xl text-gray-100 uppercase w-full text-center font-bold">
               WednessDay Mount of Prayer: 9am- 12pm
             </div>
           </div>
@@ -44,10 +44,10 @@ function Event() {
           <img
             src={worship}
             alt="Reach heaven Church Int."
-            className="w-full h-[15rem]"
+            className="w-full md:h-[15rem]"
           />
           <div className="w-full flex justify-center lg:block px-2 py-2">
-            <div className="text-xl text-gray-100 uppercase w-full text-center font-bold">
+            <div className="text-base md:text-xl text-gray-100 uppercase w-full text-center font-bold">
               Friday Power Service: 6pm - 8pm
             </div>
           </div>
@@ -57,10 +57,10 @@ function Event() {
           <img
             src={teaching}
             alt="Reach heaven Church Int."
-            className="w-full h-[15rem]"
+            className="w-full md:h-[15rem]"
           />
           <div className="w-full flex justify-center lg:block px-2 py-2">
-            <div className="text-xl text-gray-100 uppercase w-full text-center font-bold">
+            <div className="text-base md:text-xl text-gray-100 uppercase w-full text-center font-bold">
               Friday Bible Studies: 4pm - 6pm
             </div>
           </div>

@@ -32,8 +32,6 @@ function NewLanding() {
   console.log(deviceType);
   return (
     <div className="w-full ">
-      <LandingNav />
-
       <div className="">
         <Carousel
           swipeable={true}
@@ -48,24 +46,28 @@ function NewLanding() {
           customTransition="transform 3000ms ease-in-out"
           transitionDuration={3000}
           containerClass="carousel-container"
-          // removeArrowOnDeviceType={["tablet", "mobile"]}
+          removeArrowOnDeviceType={["tablet", "mobile"]}
           deviceType={deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item padding-40px"
           className="relative">
-          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh] mt-20 ">
+          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh] mt-24 md:mt-20">
             <img src={land} alt="Reach heaven Church Int." className="w-full" />
           </div>
-          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-20 ">
+          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-24 md:mt-20 ">
             <img src={land1} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-20 ">
-            <img src={land3} alt="Reach heaven Church Int." />
+          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-24 md:mt-20 ">
+            <img
+              src={land3}
+              alt="Reach heaven Church Int."
+              className="md:h-auto h-[29vh]"
+            />
           </div>
-          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-20 ">
+          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-24 md:mt-20 ">
             <img src={land2} alt="Reach heaven Church Int." />
           </div>
-          <div className="w-full h-[30vh] object-cover md:h-[60vh] lg:h-[90vh] mt-20 mx-2 ">
+          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh] mt-24 md:mt-20 mx-2 ">
             <img src={land4} alt="Reach heaven Church Int." />
           </div>
         </Carousel>

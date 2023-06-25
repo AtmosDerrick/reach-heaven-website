@@ -5,7 +5,7 @@ import Form from "./Form";
 function Footer() {
   return (
     <footer
-      className="w-full h-auto pb-4 md:pb-0  bg-gray-900 mt-4 mx-auto  "
+      className="w-full h-auto pb-4 md:pb-0  bg-gray-900 mt-4  md:mx-auto pr-4 md:pr-0 "
       id="footer">
       <div className="w-full  mx-4  xl:w-3/4 xl:mx-auto text-3xl text-white ">
         <div className=" mt-4">
@@ -25,12 +25,12 @@ function Footer() {
           </ul>
           <div className="w-full grid grid-cols-1 md:grid-cols-3  ">
             <div>
-              <div className="w-full text-xl text-blue-400 my-4 font-bold text-center">
+              <div className="w-full text-xl text-blue-400 my-4 font-bold text-center ">
                 <div className="w-full border-l-4 border-l-yellow-500 px-2">
                   <i class="fa-solid fa-location-dot "></i>
-                  <span> Location</span>
+                  <span> Location</span>{" "}
                 </div>
-                <div className="w-full text-gray-200 font-normal text-base">
+                <div className="w-full text-gray-200 font-normal text-sm md:text-base">
                   Weija Block-Factory<br></br>
                   Along Accra Institute of Technology(AIT) Road
                 </div>

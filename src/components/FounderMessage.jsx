@@ -1,13 +1,13 @@
 import React from "react";
 
 //import image
-import founder1 from "../images/founder.jpg";
+import founder1 from "../images/founder2.jpg";
 
 function FounderMessage() {
   return (
     <div>
       <div
-        className="w-full text-gray-50 bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 mx-auto  mt-4 py-2 text-sm lg:text-base  "
+        className="w-full text-gray-50 bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 mx-auto  mt-4 py-2 text-xs lg:text-base  "
         id="founder">
         <div className="xl:w-3/4 mx-auto md:flex md:justify-between text-justify">
           <div className=" mx-2">
@@ -64,7 +64,7 @@ function FounderMessage() {
             <img
               src={founder1}
               alt="Reach Heaven Founder"
-              className="w-[90rem] rounded-lg"
+              className="w-[90rem] rounded-full drop-shadow-sm"
             />
           </div>
         </div>

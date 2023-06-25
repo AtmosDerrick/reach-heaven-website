@@ -22,7 +22,7 @@ function About() {
           Welcome
         </h2>
 
-        <div className="text-justify ">
+        <div className="text-justify text:sm text-sm ">
           <p>
             We are so glad you have chosen to visit our church website. Our
             mission is to help people experience the love of Jesus and discover
@@ -45,7 +45,7 @@ function About() {
         </div>
         <div>
           <Link to="/about">
-            <button className="bg-blue-500 shadow-lg text-lg text-center text-white py-2 px-8 font-medium rounded-full mt-4 hover:opacity-70 hover:shadow-md hover:transition-all">
+            <button className="bg-blue-500 shadow-lg text-lg text-center text-white py-1 px-4 font-medium rounded-full mt-4 hover:opacity-70 hover:shadow-md hover:transition-all">
               Learn More
             </button>
           </Link>
