@@ -99,13 +99,15 @@ function LandingNav() {
           </ul>
         </div>
       </nav>
-      <div
-        className={
-          menu
-            ? "ml-8 transition-all duration-500 mt-4"
-            : "mr-[-1000rem] transition-all duration-500"
-        }>
-        <Menu />
+      <div className="w-full">
+        <div
+          className={
+            menu
+              ? "ml-8 mr-[0] transition-all duration-500 "
+              : " mr-[-1000rem] transition-all duration-500"
+          }>
+          <Menu menu={menu} setMenu={setMenu} />
+        </div>
       </div>
     </div>
   );
