@@ -104,7 +104,7 @@ function LandingNav() {
           className={
             menu
               ? "ml-8 mr-[0] transition-all duration-500 "
-              : " mr-[-1000rem] transition-all duration-500"
+              : " mr-[-2000rem] transition-all duration-500"
           }>
           <Menu menu={menu} setMenu={setMenu} />
         </div>
