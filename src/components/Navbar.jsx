@@ -12,7 +12,7 @@ function Navbar() {
     <div className=" w-full  bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900">
       <nav className="relative text-white flex justify-between w-full p-2  xl:px-0 xl:w-3/4 xl:mx-auto ">
         <div className="py-2 flex justify-start w-3/4">
-          <div>
+          <div className="">
             <img
               src="./images/RHCI_logo.png"
               alt="Reach Heaven Church Logo"

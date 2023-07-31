@@ -7,21 +7,33 @@ import Conference from "./components/Pages/Conference";
 import Giving from "./components/Pages/Giving";
 import LandingPage from "./components/LandingPage";
 import LandingNav from "./components/LandingNav";
+import SignIn from "./components/Pages/Sigin";
+import { AuthProvider } from "./context/Auth";
+import PrivateRoute from "./components/PrivateRoute";
+import Admin from "./components/Pages/Admin";
 
 function App() {
   return (
-    <div className="w-full bg-blue-50">
-      <BrowserRouter>
-        <LandingNav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/ministry" element={<Ministry />} />
-          <Route path="/conferenceandevent" element={<Conference />} />
-          <Route path="/giving" element={<Giving />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <AuthProvider>
+      <div className="w-full bg-blue-50">
+        <BrowserRouter>
+          <LandingNav />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/ministry" element={<Ministry />} />
+            <Route path="/conferenceandevent" element={<Conference />} />
+            <Route path="/giving" element={<Giving />} />
+            <Route path="/signin" element={<SignIn />} />
+            <Route exact path="/admin" element={<Admin />} />
+
+            <Route exact path="/" element={<PrivateRoute />}>
+              <Route exact path="/" element={<Home />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </AuthProvider>
   );
 }
 
