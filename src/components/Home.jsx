@@ -16,8 +16,8 @@ import FounderMessage from "./FounderMessage";
 function Home() {
   return (
     <div>
+      {" "}
       <NewLanding />
-
       <div id="jesusloveyou">
         <Event />
         <WelcomeMessage />
@@ -27,10 +27,8 @@ function Home() {
         <RecentService />
       </div>
       <MissedChurch />
-
       <Watsupchat />
       <FounderMessage />
-
       <Footer />
       <Copyright />
     </div>
