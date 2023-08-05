@@ -22,7 +22,7 @@ function About() {
           Welcome
         </h2>
 
-        <div className="text-justify text:sm text-sm ">
+        <div className="text-justify text:sm lg:text-base">
           <p>
             We are so glad you have chosen to visit our church website. Our
             mission is to help people experience the love of Jesus and discover
