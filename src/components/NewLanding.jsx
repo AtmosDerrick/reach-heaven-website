@@ -51,24 +51,65 @@ function NewLanding() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item padding-40px"
           className="relative">
-          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh] mt-24 md:mt-20">
-            <img src={land} alt="Reach heaven Church Int." className="w-full" />
+          <div className="pt-16 md:pt-12 md:py-0">
+            <div className=" w-full   flex items-center justify-center h-[30vh] md:h-[80vh] absolute">
+              <div className="flex justify-center">
+                <div className=" z-50 text-white  text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md  text-center ">
+                  <p className="tracking-wide md:tracking-wider leading-relaxed drop-shadow-xl">
+                    <span className="text-xl"> Welcome to</span> <br></br>{" "}
+                    <span className="uppercase">Reach Heaven Church Int.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-[40vh] md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-75"></div>
+            <div className="w-full relative  object-cover   md:h-[80vh] lg:h-[100vh] rounded-full ">
+              <img src={land} alt="MMRA Images" className="w-full" />
+            </div>
           </div>
-          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-24 md:mt-20 ">
-            <img src={land1} alt="Reach heaven Church Int." />
+
+          <div className="pt-16 md:pt-12 md:py-0">
+            <div className=" w-full    flex items-center justify-center h-[30vh] md:h-[80vh] absolute">
+              <div className="flex justify-center">
+                <div className=" z-50 text-white  text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md  text-center px-4 lg:px-0 ">
+                  <p className="tracking-wide md:tracking-wider leading-relaxed">
+                    The Land Of Possibilities
+                  </p>
+                  <hr></hr>
+                  <p className="text-xs lg:text-base mt-4">
+                    "But Jesus looked at them and said, 'With man this is
+                    impossible, but with God all things are possible."<br></br>
+                    Matthew 19:26 (ESV)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-[40vh] md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-75"></div>
+            <div className="w-full relative  object-cover   md:h-[80vh] lg:h-[100vh] rounded-full ">
+              <img src={land1} alt="MMRA Images" className="w-full" />
+            </div>
           </div>
-          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-24 md:mt-20 ">
-            <img
-              src={land3}
-              alt="Reach heaven Church Int."
-              className="md:h-auto h-[29vh]"
-            />
-          </div>
-          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh]  mt-24 md:mt-20 ">
-            <img src={land2} alt="Reach heaven Church Int." />
-          </div>
-          <div className="w-full h-[29vh] object-cover md:h-[60vh] lg:h-[90vh] mt-24 md:mt-20 mx-2 ">
-            <img src={land4} alt="Reach heaven Church Int." />
+
+          <div className="pt-16 md:pt-12 md:py-0">
+            <div className=" w-full    flex items-center justify-center h-[30vh] md:h-[80vh] absolute">
+              <div className="flex justify-center ">
+                <div className=" z-50 text-white  text-base md:text-4xl lg:text-5xl font-bold drop-shadow-md  text-center px-4 lg:px-0">
+                  <p className="tracking-wide md:tracking-wider leading-relaxed">
+                    The Land Of Possibilities
+                  </p>
+                  <hr></hr>
+                  <p className="text-xs lg:text-base mt-4">
+                    "But Jesus looked at them and said, 'With man this is
+                    impossible, but with God all things are possible."<br></br>
+                    Matthew 19:26 (ESV)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="h-[40vh] md:h-[80vh] lg:h-[100vh] absolute w-full z-40 bg-black bg-opacity-75"></div>
+            <div className="w-full relative  object-cover   md:h-[80vh] lg:h-[100vh] rounded-full ">
+              <img src={land4} alt="MMRA Images" className="w-full" />
+            </div>
           </div>
         </Carousel>
       </div>
