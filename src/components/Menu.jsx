@@ -5,9 +5,9 @@ function Menu({ menu, setMenu }) {
   return (
     <div className="relative  bg-gray-900">
       {" "}
-      <div className="text-white   ">
-        <div className="w-5/6 mx-auto  relative  ">
-          <div className="absolute text-left mr-0 text-base w-full  bg-gray-900 md:w-3/4  lg:w-2/4 px-2 py-2  shadow-lg font-medium  z-20 leading-10 ">
+      <div className="text-gray-900  font-semibold   ">
+        <div className="w-full mx-auto  relative  ">
+          <div className="absolute text-left mr-0 h-[70vh] text-base w-full   bg-white md:w-3/4   lg:w-2/4 px-2 py-2 font-semibold  shadow-lg font-[Arial] bg-opacity-95  z-20 leading-10 ">
             <ul className=" font-serif tracking-wider">
               <Link to="/">
                 <li
