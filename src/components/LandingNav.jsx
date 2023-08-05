@@ -31,7 +31,7 @@ function LandingNav() {
     <div
       className={
         isScrolled
-          ? "fixed z-50 w-full bg-gray-100  pt-2 shadow-md bg-opacity-60 backdrop-blur-sm "
+          ? "fixed z-50 w-full bg-gray-100  pt-2 shadow-md  "
           : "fixed z-50 w-full bg-gradient-to-r from-sky-600 via-sky-900 to-sky-900 pt-2 shadow-md "
       }>
       <nav
@@ -45,11 +45,8 @@ function LandingNav() {
             <img
               src="./images/RHCI_logo.png"
               alt="Reach Heaven Church Logo"
-              className="w-8 md:w-10 lg:w-16"
+              className="w-8 md:w-8 lg:w-16"
             />
-          </div>
-          <div className="font-sans font-semibold md:font-bold text-lg md:text-3xl py-4 ml-4  ">
-            RHCI
           </div>
         </div>
 
