@@ -45,7 +45,7 @@ const SignIn = () => {
 
   return (
     <div className=" flex items-center justify-center h-screen bg-gray-100">
-      <div className="bg-white  shadow p-8  w-1/2 mx-auto rounded-md">
+      <div className="bg-white  shadow p-8 w-full px-4 md:px-0  md:w-1/2 mx-auto rounded-md">
         <div className="w-full flex justify-center">
           <img
             src="./images/RHCI_logo.png"

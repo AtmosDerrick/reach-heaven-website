@@ -51,11 +51,11 @@ function EventAndAnouncement() {
 
   console.log("lllll");
   return (
-    <div className="w-3/4 mx-auto mt-4 p-4  ">
+    <div className="w-full md:w-3/4 mx-auto mt-4 p-4  ">
       {eventActive ? (
-        <div className=" w-1/2 bg-yellow-400 mx-auto z-40">
-          <div className="w-1/2 ml-[-100px]  h-auto absolute z-30">
-            <div className="w-3/4 mx-auto mt-8 p-4 bg-white shadow-md rounded-md">
+        <div className=" w-full md:w-1/2 bg-yellow-400 mx-auto z-40">
+          <div className="w-full md:w-1/2 md:ml-[-100px]  h-auto absolute z-30">
+            <div className="w-full md:w-3/4 mx-auto mt-8 p-4 bg-white shadow-md rounded-md">
               <h2 className="text-xl font-bold mb-4">Event Details</h2>
               <form onSubmit={handleSubmit}>
                 <div className="mb-4">
@@ -115,12 +115,12 @@ function EventAndAnouncement() {
         ""
       )}
       {getEvent.map((event) => (
-        <div className="flex justify-between py-2 text-lg border-b-2  ">
-          <div className="flex justify-between gap-4 w-1/2">
+        <div className="flex justify-between gap-2 py-2 text-base md:text-lg border-b-2  ">
+          <div className="md:flex md:justify-between md:gap-4 w-1/2">
             <div className="w-full">{event.date}</div>
             <div className="w-full">{event.time}</div>
           </div>
-          <div className="w-full text-right">{event.activity}</div>
+          <div className="w-full text-left md:text-right">{event.activity}</div>
           <div className="flex gap-4 ml-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"

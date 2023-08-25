@@ -34,8 +34,8 @@ function Admin() {
   return (
     <div>
       <div className="pt-24 ">
-        <div className="w-3/4 mx-auto ">
-          <div className=" mt-4 px-4 flex gap-2">
+        <div className="w-full md:w-3/4 mx-auto ">
+          <div className=" mt-4 px-4 md:flex gap-2">
             <button
               className="w-full text-center hover:opacity-60 bg-sky-100 py-2 px-2 text-sky-800 font-semibold  text-xl mt-4"
               onClick={() => {
